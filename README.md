@@ -14,9 +14,7 @@
 💳 <b>Complete Digital Solution:</b> Contracting, Leasing, Payments & Tracking
 </p>
 
-<a href="https://gravexis.com"><img src="https://img.shields.io/badge/🌐 Visit-Website-blue?style=flat-square" /></a>
-<a href="mailto:info@gravexis.com"><img src="https://img.shields.io/badge/✉️ Contact-Us-red?style=flat-square" /></a>
-<a href="https://linkedin.com/company/gravexis"><img src="https://img.shields.io/badge/LinkedIn-Follow-blue?style=flat-square&logo=linkedin" /></a>
+<a href="https://gravexis.in"><img src="https://img.shields.io/badge/🌐 Visit-Website-blue?style=flat-square" /></a>
 
 </div>
 
@@ -58,14 +56,14 @@ Our platform empowers:
 ## 🧩 Technology Stack
 
 ### 💻 **Frontend**
-- Angular 19 (SSR with Angular Universal)
-- Bootstrap 5
+- React 16 (SSR with Next JS)
+- Node (Nest JS Framework)
 - TypeScript
 - REST API integration
 
 ### ⚙️ **Backend**
 - **NestJS / Node.js**
-- **TypeORM** with **PostgreSQL**
+- **TypeORM** with **Mongo DB**
 - **Redis** for caching
 - **DDD (Domain-Driven Design)** based modular structure
 - **Microservices** architecture with future Kafka-based communication
@@ -83,7 +81,7 @@ Our platform empowers:
 ```text
 ┌──────────────────────────┐
 │        Frontend (SSR)    │
-│  Angular 19 + Universal  │
+│  React 16 + Next JS  │
 └─────────────┬────────────┘
               │ REST APIs
 ┌─────────────┴────────────┐
@@ -91,8 +89,8 @@ Our platform empowers:
 │   Domain-Driven Design    │
 │   Microservices / Monorepo│
 └─────────────┬────────────┘
-              │ PostgreSQL / Redis
+              │ Mongo DB / Redis
 ┌─────────────┴────────────┐
 │ Database & Caching Layer │
-│ PostgreSQL · Redis Cache │
+│ Mongo DB · Redis Cache │
 └──────────────────────────┘
